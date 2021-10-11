@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 3.5rem;
+  width: 100%;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;
+}
+
+.logo {
+  padding-left: 3%;
+  align-items:flex-start;
+  align-content: space-between;
+  display: inline-block;
+}
+
+.usuario {
+  padding-right: 3%;
+  align-items: flex-end;
+  align-content: space-between;
+  display: inline-block;
+}
