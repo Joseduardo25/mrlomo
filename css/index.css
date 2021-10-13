@@ -16,31 +16,55 @@ body {
 }
 
 .logo {
-  padding-left: 3%;
-  align-items:flex-start;
-  align-content: space-between;
-  display: inline-block;
+  width: auto;
+  height: 3rem;
+  padding-left: 2.3%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
+.logo__text {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.logo__img > img {
+  height: 3rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
 .usuario {
+  width: auto;
+  height: 3rem;
   padding-right: 3%;
-  align-items: flex-end;
-  align-content: space-between;
-  display: inline-block;
+  align-items: center;
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.usuario__logo {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.usuario__administrador {
+  margin-left: 5px;
+  cursor: pointer;
 }
 
 .options {
-
   background-color: #F2F2F2;
-  display: block;
   align-items: center;
   width: 3%;
   margin-left: 2.5%;
   margin-top: 2.5%;
-  border-radius: 5px;
+  border-radius: red 5px;
 }
 
 .icon {
+  display: block;
   cursor: pointer;
   margin: 30px 5px 30px 5px;
   font-size: 5px;
@@ -48,5 +72,5 @@ body {
 }
 
 .icon > img {
-  size: 20pz;
+  size: 20px;
 }
