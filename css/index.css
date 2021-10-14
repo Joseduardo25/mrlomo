@@ -18,7 +18,7 @@ body {
 .logo {
   width: auto;
   height: 3rem;
-  padding-left: 2.3%;
+  padding-left: 2.3rem;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -40,7 +40,6 @@ body {
   padding-right: 3%;
   align-items: center;
   display: flex;
-  
   justify-content: space-between;
 }
 
@@ -54,23 +53,47 @@ body {
   cursor: pointer;
 }
 
-.options {
+.grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.sidebar {
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+}
+
+.sidebar__options {
   background-color: #F2F2F2;
   align-items: center;
-  width: 3%;
+  width: 47px;
   margin-left: 2.5%;
   margin-top: 2.5%;
-  border-radius: red 5px;
+  border: solid 2px;
+  border-radius: 5px;
+  box-shadow: #F2F2F2;
 }
 
 .icon {
-  display: block;
+  border: chartreuse solid;
+  justify-content: center;
+  display: inline-flex;
   cursor: pointer;
   margin: 30px 5px 30px 5px;
   font-size: 5px;
-  align-content: space-between;
 }
 
 .icon > img {
   size: 20px;
 }
+
+.dashboard {
+  border: solid 2px;
+  box-shadow: salmon;
+  height: 500px;
+  width: 95%;
+  margin-top: 2.5rem;
+  border-radius: 5px;
+}
+
+
