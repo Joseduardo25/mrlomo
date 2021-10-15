@@ -75,9 +75,8 @@ body {
 }
 
 .icon {
-  border: chartreuse solid;
   justify-content: center;
-  display: inline-flex;
+  display: flex;
   cursor: pointer;
   margin: 30px 5px 30px 5px;
   font-size: 5px;
