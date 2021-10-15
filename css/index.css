@@ -58,20 +58,15 @@ body {
   grid-template-columns: 150px 1fr;
 }
 
-.sidebar {
-  margin-top: 2.5rem;
-  margin-left: 2.5rem;
-}
-
 .sidebar__options {
   background-color: #F2F2F2;
   align-items: center;
   width: 47px;
-  margin-left: 2.5%;
-  margin-top: 2.5%;
-  border: solid 2px;
+  padding-top: 0;
+  box-shadow: 0.5px 0.5px 2px 1px gray;
   border-radius: 5px;
-  box-shadow: #F2F2F2;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
 }
 
 .icon {
@@ -87,12 +82,11 @@ body {
 }
 
 .dashboard {
-  border: solid 2px;
-  box-shadow: salmon;
   height: 500px;
   width: 95%;
   margin-top: 2.5rem;
   border-radius: 5px;
+  box-shadow: 0.5px 0.5px 2px 1px gray;
 }
 
 
